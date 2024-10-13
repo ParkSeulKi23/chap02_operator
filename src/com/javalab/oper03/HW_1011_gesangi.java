@@ -9,7 +9,8 @@ public class HW_1011_gesangi {
     public  static void gesangi(){
         Scanner num1 = new Scanner(System.in);
         System.out.println("첫번째 숫자를 입력해주세요.");
-        int strNum1=Integer.parseInt(num1.nextLine());
+//        int strNum1=Integer.parseInt(num1.nextLine());
+        double strNum1=Double.parseDouble(num1.nextLine());
 
         Scanner operation = new Scanner(System.in);
         System.out.println("연산기호를 입력해주세요.");
@@ -17,7 +18,8 @@ public class HW_1011_gesangi {
 
         Scanner num2 = new Scanner(System.in);
         System.out.println("두번째 숫자를 입력해주세요.");
-        int strNum2=Integer.parseInt(num2.nextLine());
+//        int strNum2=Integer.parseInt(num2.nextLine());
+        double strNum2=Double.parseDouble(num2.nextLine());
 
         double gesan=0;
         if(strOperation.equals("+")){
